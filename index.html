@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <link href="../assets/css/output.css" rel="stylesheet" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body>
+    <div class="min-w-[360px] min-h-screen text-primary bg-(--color-yellow) font-display flex flex-col justify-center items-center gap-[10px]">
+      <main class="mycustom-multi-shadow w-[327px] lg:w-[384px] p-[24px] bg-white rounded-[20px]">
+        <article class="flex flex-col gap-[24px] text-(--color-gray-950)">
+          <section>
+            <header>
+              <img
+                class="h-[200px] lg:h-auto object-cover rounded-[10px]"
+                src="./assets/images/illustration-article.svg"
+                alt="Illustration"
+              />
+            </header>
+          </section>
+          <section class="flex flex-col gap-[12px]">
+            <p class="py-[4px] px-[12px] bg-(--color-yellow) w-min font-extrabold rounded-sm">Learning</p>
+            <p>Published <time datetime="2023-12-21">21 Dec 2023</time></p>
+            <h1 class="w-fit font-extrabold text-xl lg:text-2xl hover:text-(--color-yellow) hover:cursor-pointer">HTML & CSS foundations</h1>
+            <p class="font-medium text-sm lg:text-base text-(--color-gray-500) leading-[150%]">
+              These languages are the backbone of every website, defining
+              structure, content, and presentation.
+            </p>
+          </section>
+          <section>
+            <footer class="flex gap-[12px] items-center">
+              <img class="w-[32px]"src="assets/images/image-avatar.webp" alt="Greg Hooper"  aria-hidden="true" />
+              <p><strong class="font-extrabold">Greg Hooper</strong></p>
+            </footer>
+          </section>
+        </article>
+      </main>
+
+      <footer class="attribution" role="contentinfo">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        rel="noopener noreferrer">Frontend Mentor</a
+        >. Coded by
+        <a
+          href="https://github.com/toxa-dev/"
+          title="Link to my github profile"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Tony</a
+        >.
+      </footer>
+    </div>
+  </body>
+</html>
