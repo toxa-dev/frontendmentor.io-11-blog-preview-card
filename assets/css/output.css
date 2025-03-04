@@ -297,6 +297,11 @@
       }
     }
   }
+  .active\:text-\(--color-yellow\) {
+    &:active {
+      color: var(--color-yellow);
+    }
+  }
   .lg\:h-auto {
     @media (width >= 64rem) {
       height: auto;
